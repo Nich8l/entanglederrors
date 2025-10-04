@@ -1,4 +1,4 @@
-# Entangled Errors
+# Entangled Errors/Experiments
 
 A personal sandbox of experiments and code exploring **physics, computation, and randomness** — where mistakes and curiosity meet.  
 The goal is to learn through small, chaotic projects that evolve into something meaningful over time.
