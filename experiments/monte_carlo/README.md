@@ -24,15 +24,15 @@ numpy
 matplotlib (for visualization)
 
 Install with:
-
-pip install numpy matplotlib
-
+```bash
+pip install numpy matplotlib 
+```
 ---
 
 ## Run It
 ```bash
 python montecarlo_pi.py --samples 100000
-
+```
 ---
 
 ## Example output
