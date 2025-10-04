@@ -18,6 +18,17 @@ This experiment uses the **Monte Carlo method** to estimate the value of π thro
 
 ---
 
+## Requirements
+
+numpy
+matplotlib (for visualization)
+
+Install with:
+
+pip install numpy matplotlib
+
+---
+
 ## Run It
 ```bash
 python montecarlo_pi.py --samples 100000
