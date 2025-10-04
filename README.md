@@ -1,33 +1,34 @@
 # Entangled Errors
 
-A collection of experiments, simulations, and side projects exploring **computational physics, data science, and algorithms**.  
-The goal is to build a sandbox of ideas — messy, experimental, and educational.
+A personal sandbox of experiments and code exploring **physics, computation, and randomness** — where mistakes and curiosity meet.  
+The goal is to learn through small, chaotic projects that evolve into something meaningful over time.
 
 ---
 
-## Listed Experiments
-- **Monte Carlo π Estimation**  
-  Randomly samples points inside a square to approximate the value of π.  
-  *(Located in `experiments/montecarlo_pi/`)*
+## Current Experiments
+| Experiment | Description |
+|-------------|--------------|
+| [Monte Carlo π Estimation](experiments/monte_carlo) | Approximates π using random sampling inside a unit circle. |
 
 ---
 
-## Planned Additions
-- Random walk simulations  
-- Particle diffusion models  
-- Small quantum-inspired experiments  
-- Miscellaneous coding explorations
+## Structure
+entanglederrors/
+├── README.md
+├── experiments/
+│ └── monte_carlo/
+│ ├── montecarlo_pi.py
+│ └── README.md
+└── data/ (future)
 
 ---
 
-## Requirements
-Most experiments use Python. Common dependencies:
-- `numpy`
-- `matplotlib`
-- `scipy` *(for some future experiments)*
+## Future Plans
+- Random walk simulation  
+- Quantum-inspired probability experiments  
+- Data visualisation of randomness  
 
-Install with:
+---
 
-```bash
-pip install -r requirements.txt
-
+## About
+Created by [Nichol](https://nich8l.github.io) — documenting the process of learning through “entangled errors.”
